@@ -1,0 +1,6 @@
+{
+  "name": "PM SHRI GSSS Randhawa Masandan - AI Career Portal",
+  "description": "Official AI Career Guidance, Stream Assessment & Counselling Portal for PM SHRI Government Senior Secondary School Randhawa Masandan, Jalandhar.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

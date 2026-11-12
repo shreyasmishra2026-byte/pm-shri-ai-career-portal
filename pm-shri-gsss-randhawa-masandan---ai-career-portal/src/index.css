@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  h1, h2, h3, .font-serif {
+    font-family: 'Public Sans', Georgia, Cambria, serif;
+  }
+}
+
+@media print {
+  header, footer, #assessment-section, #counsellor-section, #explore-section, #about-section, .print\:hidden {
+    display: none !important;
+  }
+  
+  #results-section {
+    display: block !important;
+    padding: 0 !important;
+    background: white !important;
+  }
+}
